@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #211437, #51385f);
+  color: white;
+  font: 16px system-ui;
+}
+
+.invite {
+  width: min(92vw, 520px);
+  padding: 38px;
+  border: 1px solid #ffffff40;
+  border-radius: 28px;
+  background: #ffffff12;
+  text-align: center;
+}
+
+.date {
+  color: #f5c96c;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-weight: 700;
+}
+
+.invite h1 {
+  margin: 0.3em 0;
+  font-size: clamp(2.4rem, 8vw, 4rem);
+}
+
+.invite p {
+  color: #eee;
+  line-height: 1.6;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+button {
+  padding: 12px 18px;
+  border: 0;
+  border-radius: 999px;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.yes {
+  background: #f5c96c;
+  color: #261b32;
+}
+
+.no {
+  border: 1px solid #fff6;
+  background: #ffffff22;
+  color: white;
+}
+
+#reply {
+  min-height: 1.5em;
+  color: #f5c96c;
+}
